@@ -1,0 +1,15 @@
+[project]
+name = "hello-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langgraph>=1.1.4",
+    "langgraph-cli[inmem]>=0.4.19",
+]
+
+[tool.uv.workspace]
+members = [
+    "Novice",
+]

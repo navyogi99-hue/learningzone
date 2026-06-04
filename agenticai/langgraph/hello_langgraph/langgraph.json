@@ -1,0 +1,18 @@
+{
+    "dependencies": [
+        "."
+    ],
+    "graphs": {
+        "hello": "hello:graph",
+        "partial-sequence": "partial:graph",
+        "partial_paralled": "partial_parallel:graph",
+        "parallel": "parallel:graph",
+        "conditionaled": "conditional:graph",
+        "conditional_test": "conditional_test:graph",
+        "loops": "loops:graph",
+        "hello3": "hello1:graph",
+        "partial_sequence2": "partial1:graph",
+        "parallel1": "parallel1:graph"
+    },
+    "env": ".env"
+}
