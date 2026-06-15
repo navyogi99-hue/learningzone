@@ -1,0 +1,28 @@
+# Moment of Inertia - High School Notes Todo List
+
+- [ ] Draft the high school physics notes on Moment of Inertia following `high-school-notes-writer` guidelines
+    - [ ] Learning objectives (conceptual understanding, formulas, theorems, and problem-solving)
+    - [ ] Introduction (rotational analogue of mass, rotational inertia definition)
+    - [ ] Key terminology table (Moment of Inertia, Radius of Gyration, Torque, Angular Acceleration, Axis of Rotation)
+    - [ ] Core Concepts
+        - [ ] Definition for a point mass: $I = m r^2$
+        - [ ] Moment of inertia of system of particles: $I = \sum m_i r_i^2$
+        - [ ] Factors affecting Moment of Inertia (mass, mass distribution, axis of rotation)
+        - [ ] Parallel Axis Theorem ($I = I_{cm} + M d^2$)
+        - [ ] Perpendicular Axis Theorem ($I_z = I_x + I_y$)
+        - [ ] Moments of Inertia of Standard Bodies (Ring, Disc, Rod, Sphere, Cylinder)
+    - [ ] Diagram Descriptions (mass distribution and axis of rotation)
+    - [ ] Important Formulas & Units
+    - [ ] Worked Examples (step-by-step calculations for point systems and standard bodies, including theorems)
+    - [ ] Real-World Applications (flywheels, figure skaters, tightrope walkers)
+    - [ ] Common Misconceptions (e.g., that moment of inertia is constant for a body, or that it is the same as mass)
+    - [ ] Exam Focus (typical derivations, key formulas, frequently asked conceptual questions)
+    - [ ] Key Points Summary (10 high-density revision points)
+    - [ ] Revision & Practice Questions (VSA, MCQ, Fill in the Blanks, Short Answer, Long Answer, Numericals, HOTS)
+    - [ ] Summary
+- [ ] Create supporting educational files in `/moment-of-inertia/high-school/`
+    - [ ] Formula cheat sheet and derivation guide (`derivations-cheatsheet.md`)
+    - [ ] Numerical practice worksheet with solutions (`worksheet.md`)
+- [ ] Save the final notes file to `/moment-of-inertia/high-school/finalnotes.md`
+- [ ] Validate notes and worksheet for high school physics rigor, clear math formatting, and completeness
+- [ ] Revise/replan based on validation feedback

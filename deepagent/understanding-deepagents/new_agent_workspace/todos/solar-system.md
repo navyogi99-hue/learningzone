@@ -1,0 +1,22 @@
+# Solar System - Primary School Notes Todo List
+
+- [x] Draft the primary school solar system notes according to `primary-school-notes-writer` guidelines
+    - [x] Title and simple definition
+    - [x] Why Is It Important?
+    - [x] Main Concepts: The Sun, The 8 Planets (Inner & Outer), Moon, Asteroids & Comets
+    - [x] Familiar Examples
+    - [x] Memorable Fun Facts
+    - [x] Key Points to Remember
+    - [x] Quick Revision (Q&A pairs)
+    - [x] Practice Questions (MCQs, Fill in the Blanks, Short Answer Questions)
+    - [x] Summary
+- [x] Create supporting educational files in `/solar-system/primary/`
+    - [x] Worksheet or Quiz (`worksheet.md` or `quiz.md`)
+    - [x] Key terms glossary (`glossary.md`)
+- [x] Save the final notes file to `/solar-system/primary/finalnotes.md`
+- [x] Validate notes content and structures for:
+    - [x] Age-appropriate language and tone (for primary school)
+    - [x] Fact accuracy
+    - [x] Clear structure
+    - [x] Completion criteria
+- [x] Revise/replan if any issues are found during validation (No issues found, validation passed!)
