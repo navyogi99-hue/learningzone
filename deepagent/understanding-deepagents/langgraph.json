@@ -8,6 +8,7 @@
         "backend1": "backend1:agent",
         "test": "test:agent",
         "skill": "detailed_skills_demo:agent",
-        "subagent": "hello_subagent:agent"
+        "subagent": "hello_subagent:agent",
+        "question": "question_paper_agent:agent"
     }
 }
