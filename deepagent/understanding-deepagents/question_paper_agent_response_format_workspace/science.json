@@ -1,0 +1,132 @@
+[
+  {
+    "question_number": 41,
+    "subject": "science",
+    "question": "Which of the following is the SI base unit of Luminous Intensity?",
+    "options": {
+      "A": "Lux",
+      "B": "Lumen",
+      "C": "Candela",
+      "D": "Watt"
+    },
+    "correct_option": "C",
+    "explanation": "Luminous intensity is measured in Candela (cd), which is one of the seven base SI units. Lux is the unit of illuminance, Lumen is the unit of luminous flux, and Watt is the unit of power."
+  },
+  {
+    "question_number": 42,
+    "subject": "science",
+    "question": "What is the nature of the image formed by a convex mirror when an object is placed at any finite distance in front of it?",
+    "options": {
+      "A": "Real and inverted",
+      "B": "Real and erect",
+      "C": "Virtual and inverted",
+      "D": "Virtual and erect"
+    },
+    "correct_option": "D",
+    "explanation": "A convex mirror (diverging mirror) always forms a virtual, erect, and diminished image regardless of the position of the object. This is why it is used as a rear-view mirror in vehicles."
+  },
+  {
+    "question_number": 43,
+    "subject": "science",
+    "question": "What is the chemical name of the common household substance 'Washing Soda'?",
+    "options": {
+      "A": "Sodium bicarbonate",
+      "B": "Sodium carbonate",
+      "C": "Calcium oxychloride",
+      "D": "Sodium hydroxide"
+    },
+    "correct_option": "B",
+    "explanation": "Washing soda is chemically Sodium carbonate (Na2CO3.10H2O). Sodium bicarbonate (NaHCO3) is baking soda, Calcium oxychloride (CaOCl2) is bleaching powder, and Sodium hydroxide (NaOH) is caustic soda."
+  },
+  {
+    "question_number": 44,
+    "subject": "science",
+    "question": "Which of the following natural organic acids is predominantly present in tomatoes?",
+    "options": {
+      "A": "Citric acid",
+      "B": "Oxalic acid",
+      "C": "Lactic acid",
+      "D": "Tartaric acid"
+    },
+    "correct_option": "B",
+    "explanation": "Tomatoes naturally contain oxalic acid as their primary organic acid. Citric acid is found in citrus fruits, lactic acid in sour milk/curd, and tartaric acid in tamarind."
+  },
+  {
+    "question_number": 45,
+    "subject": "science",
+    "question": "Which of the following non-metals exists in a liquid state at standard room temperature?",
+    "options": {
+      "A": "Mercury",
+      "B": "Bromine",
+      "C": "Chlorine",
+      "D": "Phosphorus"
+    },
+    "correct_option": "B",
+    "explanation": "Bromine is the only non-metal that is a liquid at standard room temperature. Mercury is also liquid at room temperature, but it is a metal. Chlorine is a gas, and phosphorus is a solid."
+  },
+  {
+    "question_number": 46,
+    "subject": "science",
+    "question": "Deficiency of which of the following vitamins is responsible for the skeletal disorder 'Rickets' in children?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin D",
+      "D": "Vitamin K"
+    },
+    "correct_option": "C",
+    "explanation": "Rickets is a bone-weakening disease in children caused by Vitamin D deficiency, which is essential for calcium absorption. Vitamin A deficiency causes night blindness, Vitamin C causes scurvy, and Vitamin K causes bleeding disorders."
+  },
+  {
+    "question_number": 47,
+    "subject": "science",
+    "question": "Which organ in the human body is primarily responsible for filtering blood, removing metabolic waste products, and producing urine?",
+    "options": {
+      "A": "Liver",
+      "B": "Kidney",
+      "C": "Heart",
+      "D": "Spleen"
+    },
+    "correct_option": "B",
+    "explanation": "The kidneys filter blood to eliminate urea, excess salts, and water in the form of urine. The liver detoxifies chemicals, the heart pumps blood, and the spleen stores platelets and filters blood cells."
+  },
+  {
+    "question_number": 48,
+    "subject": "science",
+    "question": "Which specialized vascular tissue in plants is responsible for transporting water and dissolved minerals from the roots upwards to the leaves?",
+    "options": {
+      "A": "Phloem",
+      "B": "Xylem",
+      "C": "Parenchyma",
+      "D": "Sclerenchyma"
+    },
+    "correct_option": "B",
+    "explanation": "Xylem is the vascular tissue responsible for conducting water and minerals from the roots to the leaves. Phloem is responsible for transporting sugars made during photosynthesis."
+  },
+  {
+    "question_number": 49,
+    "subject": "science",
+    "question": "Which of the following cell organelles is commonly referred to as the 'Powerhouse of the Cell'?",
+    "options": {
+      "A": "Ribosome",
+      "B": "Lysosome",
+      "C": "Mitochondrion",
+      "D": "Golgi apparatus"
+    },
+    "correct_option": "C",
+    "explanation": "Mitochondria are known as the powerhouses of the cell because they oxidize nutrients during cellular respiration to generate energy in the form of ATP."
+  },
+  {
+    "question_number": 50,
+    "subject": "science",
+    "question": "Which of the following chemical compounds is primarily responsible for the depletion of the stratospheric ozone layer?",
+    "options": {
+      "A": "Carbon Dioxide (CO2)",
+      "B": "Chlorofluorocarbons (CFCs)",
+      "C": "Methane (CH4)",
+      "D": "Sulfur Dioxide (SO2)"
+    },
+    "correct_option": "B",
+    "explanation": "Chlorofluorocarbons (CFCs) release free chlorine atoms when exposed to UV radiation in the stratosphere. These chlorine atoms catalyze the breakdown of ozone (O3) into oxygen molecules (O2)."
+  }
+]

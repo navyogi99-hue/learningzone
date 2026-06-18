@@ -1,0 +1,132 @@
+[
+  {
+    "question_number": 21,
+    "subject": "english",
+    "question": "Select the most appropriate synonym of the given word:\n\nDILIGENT",
+    "options": {
+      "A": "Idle",
+      "B": "Industrious",
+      "C": "Careless",
+      "D": "Ignorant"
+    },
+    "correct_option": "B",
+    "explanation": "The word 'Diligent' means having or showing care and conscientiousness in one's work or duties; hardworking. Option B, 'Industrious', is the synonym as it also means diligent and hard-working. Option A, 'Idle', is an antonym meaning lazy or inactive. Option C, 'Careless', is incorrect as it means not giving sufficient attention or thought to avoiding harm or errors. Option D, 'Ignorant', is incorrect as it means lacking knowledge or awareness."
+  },
+  {
+    "question_number": 22,
+    "subject": "english",
+    "question": "Select the most appropriate antonym of the given word:\n\nHOSTILE",
+    "options": {
+      "A": "Friendly",
+      "B": "Aggressive",
+      "C": "Unfavorable",
+      "D": "Belligerent"
+    },
+    "correct_option": "A",
+    "explanation": "The word 'Hostile' means showing or feeling opposition or dislike; unfriendly or antagonistic. Option A, 'Friendly', is the correct antonym as it means kind, pleasant, or supportive. Option B, 'Aggressive', is a synonym/related word meaning ready or likely to attack. Option C, 'Unfavorable', is incorrect as it means adverse or expressing disapproval. Option D, 'Belligerent', is a synonym meaning hostile and aggressive."
+  },
+  {
+    "question_number": 23,
+    "subject": "english",
+    "question": "Identify the segment in the sentence that contains a grammatical error:\n\nNeither the teacher nor the students was present in the staff room when the principal arrived.",
+    "options": {
+      "A": "Neither the teacher",
+      "B": "nor the students was",
+      "C": "present in the staff room",
+      "D": "when the principal arrived"
+    },
+    "correct_option": "B",
+    "explanation": "This question tests the rule of Subject-Verb Agreement. When two subjects are connected by 'neither... nor', the verb must agree with the nearer subject. In this sentence, the nearer subject is 'the students', which is plural. Therefore, the singular verb 'was' must be replaced with the plural verb 'were' to make the sentence grammatically correct."
+  },
+  {
+    "question_number": 24,
+    "subject": "english",
+    "question": "Fill in the blank with the most appropriate preposition:\n\nWe must adapt ourselves ______ the changing circumstances of life.",
+    "options": {
+      "A": "with",
+      "B": "to",
+      "C": "in",
+      "D": "for"
+    },
+    "correct_option": "B",
+    "explanation": "The verb 'adapt' (especially as a reflexive verb, e.g., 'adapt ourselves') is collocated with the preposition 'to' when it means to adjust to new conditions, environments, or situations. Option B, 'to', is the correct and idiomatic preposition here (e.g., 'adapt to something'). Options A, C, and D are incorrect because prepositions 'with', 'in', and 'for' do not fit the grammatical collocation of 'adapt ourselves' in this context."
+  },
+  {
+    "question_number": 25,
+    "subject": "english",
+    "question": "Fill in the blank with the most appropriate verb form:\n\nA large number of candidates ______ registered for the upcoming bank examination.",
+    "options": {
+      "A": "has",
+      "B": "have",
+      "C": "is",
+      "D": "was"
+    },
+    "correct_option": "B",
+    "explanation": "This question tests subject-verb agreement rules. The noun phrase 'a large number of' is followed by a plural countable noun ('candidates') and requires a plural verb ('have'). Option B, 'have', is the correct plural auxiliary verb to form the present perfect tense with the past participle 'registered'. Option A ('has') is a singular verb and is incorrect. Options C ('is') and D ('was') are singular verbs and do not form a grammatically correct active present perfect construction."
+  },
+  {
+    "question_number": 26,
+    "subject": "english",
+    "question": "Select the option that best expresses the meaning of the given idiom:\n\nAt the eleventh hour",
+    "options": {
+      "A": "At the very last moment",
+      "B": "One hour before midnight",
+      "C": "At an early stage",
+      "D": "At an inappropriate time"
+    },
+    "correct_option": "A",
+    "explanation": "The idiom 'at the eleventh hour' means doing something at the last possible moment, right before a deadline or before it is too late. Option A correctly defines this idiom. Option B is a literal interpretation of the words and is incorrect. Option C, 'At an early stage', is the opposite of the idiom's meaning. Option D, 'At an inappropriate time', is too general and incorrect."
+  },
+  {
+    "question_number": 27,
+    "subject": "english",
+    "question": "Select the word which can be used as a one-word substitute for the given group of words:\n\nA position or job that requires little or no work but provides a financial benefit.",
+    "options": {
+      "A": "Sinecure",
+      "B": "Honorary",
+      "C": "Voluntary",
+      "D": "Truant"
+    },
+    "correct_option": "A",
+    "explanation": "Option A, 'Sinecure', refers to a position or job requiring little or no work but yielding a profitable income. Option B, 'Honorary', refers to a title or position given as an honor without any payment. Option C, 'Voluntary', refers to work done of one's own free will without payment. Option D, 'Truant', refers to a student who stays away from school without leave or explanation."
+  },
+  {
+    "question_number": 28,
+    "subject": "english",
+    "question": "Select the correctly spelled word from the given options.",
+    "options": {
+      "A": "Accomodation",
+      "B": "Accommodation",
+      "C": "Acomodation",
+      "D": "Accommadation"
+    },
+    "correct_option": "B",
+    "explanation": "The correct spelling is 'Accommodation' (Option B). It is formed with a double 'c' and a double 'm' (A-c-c-o-m-m-o-d-a-t-i-o-n). Option A is incorrect as it has a single 'm'. Option C is incorrect as it has a single 'c' and single 'm'. Option D is incorrect as it has an 'a' instead of an 'o' in the middle syllable ('mad' instead of 'mod')."
+  },
+  {
+    "question_number": 29,
+    "subject": "english",
+    "question": "Select the option that represents the correct passive voice conversion of the given active sentence:\n\nThe chef prepared a delicious meal for the guests.",
+    "options": {
+      "A": "A delicious meal is prepared by the chef for the guests.",
+      "B": "A delicious meal was prepared by the chef for the guests.",
+      "C": "A delicious meal has been prepared by the chef for the guests.",
+      "D": "A delicious meal was being prepared by the chef for the guests."
+    },
+    "correct_option": "B",
+    "explanation": "The active sentence is in the simple past tense ('prepared'). To convert simple past to passive voice, we use the structure: Object ('A delicious meal') + was/were + past participle (V3) of the verb ('prepared') + by + agent ('the chef') + rest of the sentence ('for the guests'). Since 'A delicious meal' is singular, 'was prepared' is used, making Option B the correct choice. Option A uses simple present ('is prepared'), Option C uses present perfect ('has been prepared'), and Option D uses past continuous ('was being prepared'), all of which are incorrect tense changes."
+  },
+  {
+    "question_number": 30,
+    "subject": "english",
+    "question": "Select the option that represents the correct indirect speech conversion of the given direct sentence:\n\nHe said to me, \"Where are you going?\"",
+    "options": {
+      "A": "He asked me where I was going.",
+      "B": "He asked me where was I going.",
+      "C": "He said to me where I was going.",
+      "D": "He asked me that where I was going."
+    },
+    "correct_option": "A",
+    "explanation": "In converting a direct interrogative sentence starting with a question-word ('Where') into indirect speech, the reporting verb 'said to' is changed to 'asked' (making Option C incorrect). No conjunction like 'that' is used before 'where' (making Option D incorrect). The question format ('are you going') is changed to assertive word order ('I was going' - subject first, then the verb) and backshifted from present continuous to past continuous (making Option B incorrect because it retains the interrogative word order 'was I going'). Thus, Option A is the correct and grammatically accurate choice."
+  }
+]

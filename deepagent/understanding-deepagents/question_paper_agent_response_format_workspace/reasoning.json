@@ -1,0 +1,132 @@
+[
+  {
+    "question_number": 1,
+    "subject": "reasoning",
+    "question": "Find the missing number in the following number series:\n12, 15, 21, 30, 42, ?",
+    "options": {
+      "A": "52",
+      "B": "55",
+      "C": "57",
+      "D": "60"
+    },
+    "correct_option": "C",
+    "explanation": "Let us find the difference between consecutive terms in the series:\n- 15 - 12 = 3\n- 21 - 15 = 6\n- 30 - 21 = 9\n- 42 - 30 = 12\n\nNotice the pattern in the differences: they are consecutive multiples of 3 (3, 6, 9, 12). Following this pattern, the next difference must be 15 (which is 3 * 5). Add this difference to the last term to find the missing number: 42 + 15 = 57."
+  },
+  {
+    "question_number": 2,
+    "subject": "reasoning",
+    "question": "Which group of letters will replace the question mark (?) to complete the given series?\nBDF, HJL, NPR, ?",
+    "options": {
+      "A": "TVW",
+      "B": "TVX",
+      "C": "UWY",
+      "D": "SUW"
+    },
+    "correct_option": "B",
+    "explanation": "Let us write down the alphabetical position numbers for each letter (where A=1, B=2, ..., Z=26).\n\nAnalyze the pattern of corresponding positions in each 3-letter term:\n- First letter of each term: B (2) -> H (8) -> N (14) with a constant difference of +6. The next first letter is 14 + 6 = 20, which is T.\n- Second letter of each term: D (4) -> J (10) -> P (16) with a constant difference of +6. The next second letter is 16 + 6 = 22, which is V.\n- Third letter of each term: F (6) -> L (12) -> R (18) with a constant difference of +6. The next third letter is 18 + 6 = 24, which is X.\n\nCombining these letters gives the group TVX."
+  },
+  {
+    "question_number": 3,
+    "subject": "reasoning",
+    "question": "In a certain code language, \"PENCIL\" is written as \"RGPEKN\". How will \"BOARD\" be written in that same code language?",
+    "options": {
+      "A": "DQCTF",
+      "B": "DQCVE",
+      "C": "DPCSF",
+      "D": "EQCTG"
+    },
+    "correct_option": "A",
+    "explanation": "Let us examine the relation between each letter of \"PENCIL\" and its code \"RGPEKN\":\n- P (16) + 2 = R (18)\n- E (5) + 2 = G (7)\n- N (14) + 2 = P (16)\n- C (3) + 2 = E (5)\n- I (9) + 2 = K (11)\n- L (12) + 2 = N (14)\n\nThe coding pattern is a constant addition of +2 to the alphabetical position of each letter. Applying this same pattern to \"BOARD\":\n- B (2) + 2 = D (4)\n- O (15) + 2 = Q (17)\n- A (1) + 2 = C (3)\n- R (18) + 2 = T (20)\n- D (4) + 2 = F (6)\n\nThis results in the code DQCTF."
+  },
+  {
+    "question_number": 4,
+    "subject": "reasoning",
+    "question": "Pointing to a photograph of a man, a woman named Pooja said, \"He is the only son of the only daughter of my maternal grandfather.\" How is the man in the photograph related to Pooja?",
+    "options": {
+      "A": "Brother",
+      "B": "Uncle",
+      "C": "Father",
+      "D": "Cousin"
+    },
+    "correct_option": "A",
+    "explanation": "Let's break down Pooja's statement step-by-step, starting from the end:\n1. \"My maternal grandfather\" refers to Pooja's mother's father.\n2. \"The only daughter of my maternal grandfather\" refers to Pooja's mother (since she is the grandfather's only daughter).\n3. \"The only son of the only daughter\" refers to the only son of Pooja's mother.\n4. The only son of Pooja's mother is Pooja's brother.\n\nTherefore, the man in the photograph is Pooja's Brother."
+  },
+  {
+    "question_number": 5,
+    "subject": "reasoning",
+    "question": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly known facts, decide which of the given conclusions logically follow(s) from the statements.\n\nStatements:\n1. All pens are markers.\n2. Some markers are rulers.\n\nConclusions:\nI. Some pens are rulers.\nII. Some markers are pens.",
+    "options": {
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusion I and II follow",
+      "D": "Neither conclusion I nor II follows"
+    },
+    "correct_option": "B",
+    "explanation": "Let's represent the statements using Venn diagrams:\n1. \"All pens are markers.\" This means the circle representing \"Pens\" is completely enclosed inside the \"Markers\" circle.\n2. \"Some markers are rulers.\" This indicates an intersection between the \"Markers\" circle and the \"Rulers\" circle. However, this intersection may or may not overlap with the \"Pens\" circle.\n\nNow we evaluate the conclusions:\n- Conclusion I (\"Some pens are rulers\"): Because there is no definite information linking \"Pens\" and \"Rulers\", the overlap is possible but not guaranteed. Hence, Conclusion I does not definitely follow.\n- Conclusion II (\"Some markers are pens\"): Since all \"Pens\" are inside \"Markers\", the portion of \"Markers\" occupied by \"Pens\" represents an intersection. Therefore, some markers are definitely pens, making Conclusion II logically valid.\n\nThus, only conclusion II follows."
+  },
+  {
+    "question_number": 6,
+    "subject": "reasoning",
+    "question": "A man starts walking from his house and goes 5 km North. Then he turns right and walks 8 km. After that, he turns left and walks 4 km. Finally, he turns left and walks 8 km. How far is he now from his starting point and in which direction?",
+    "options": {
+      "A": "9 km, North",
+      "B": "9 km, South",
+      "C": "13 km, North",
+      "D": "17 km, East"
+    },
+    "correct_option": "A",
+    "explanation": "Let us track the man's coordinates starting from his house at the origin (0, 0):\n1. Walks 5 km North -> Position: (0, 5)\n2. Turns right (East) and walks 8 km -> Position: (8, 5)\n3. Turns left (North) and walks 4 km -> Position: (8, 5 + 4) = (8, 9)\n4. Turns left (West) and walks 8 km -> Position: (8 - 8, 9) = (0, 9)\n\nCompute the final distance and direction from the origin (0, 0):\n- The final position is (0, 9).\n- Distance = 9 - 0 = 9 km.\n- Since (0, 9) lies directly on the positive y-axis relative to (0, 0), he is in the North direction from his house. Therefore, he is 9 km North of his starting point."
+  },
+  {
+    "question_number": 7,
+    "subject": "reasoning",
+    "question": "Select the option that is related to the third term in the same way as the second term is related to the first term.\n25 : 37 :: 49 : ?",
+    "options": {
+      "A": "64",
+      "B": "65",
+      "C": "50",
+      "D": "81"
+    },
+    "correct_option": "B",
+    "explanation": "Analyze the relation between the first pair (25 : 37):\n- 25 can be written as 5 squared (5 * 5).\n- 37 can be written as (5 + 1) squared + 1 = 6 squared + 1 = 36 + 1 = 37.\n\nApply the same logic to the second pair (49 : ?):\n- 49 can be written as 7 squared (7 * 7).\n- Following the pattern (x) squared : (x+1) squared + 1, the missing number must be: (7 + 1) squared + 1 = 8 squared + 1 = 64 + 1 = 65. Therefore, the missing term is 65."
+  },
+  {
+    "question_number": 8,
+    "subject": "reasoning",
+    "question": "Four words have been given below, out of which three are alike in some manner and one is different. Select the odd word.",
+    "options": {
+      "A": "Kilometer",
+      "B": "Yard",
+      "C": "Micron",
+      "D": "Gram"
+    },
+    "correct_option": "D",
+    "explanation": "Analyze the nature of each option:\n- Kilometer is a standard unit used to measure length or distance.\n- Yard is an imperial unit used to measure length or distance.\n- Micron (micrometer) is a metric unit used to measure length or distance.\n- Gram is a unit used to measure mass or weight.\n\nSince Kilometer, Yard, and Micron are units of length, they belong to the same category. Gram is a unit of mass, making it the odd one out."
+  },
+  {
+    "question_number": 9,
+    "subject": "reasoning",
+    "question": "Five friends—A, B, C, D, and E—are sitting in a row facing North.\n1. A is sitting next to B.\n2. C is sitting next to D.\n3. C is not sitting with E, who is at the far left end of the row.\n4. D is in the second position from the right.\n5. A is to the right of B and E.\n\nWho is sitting in the middle of the row?",
+    "options": {
+      "A": "B",
+      "B": "A",
+      "C": "C",
+      "D": "D"
+    },
+    "correct_option": "B",
+    "explanation": "Let us denote the 5 positions from left to right as 1, 2, 3, 4, 5. All friends face North.\n- From condition 3: E is at the far left end -> Position 1 = E. Row: [E, _, _, _, _]\n- From condition 4: D is in the second position from the right -> Position 4 = D. Row: [E, _, _, D, _]\n- From condition 2: C is sitting next to D. This leaves two options for C:\n  - Case 1: C is at Position 3 -> Row: [E, _, C, D, _]\n  - Case 2: C is at Position 5 -> Row: [E, _, _, D, C]\n- Test Case 1: The empty seats are Positions 2 and 5. From condition 1, A is sitting next to B. Since the remaining spots (2 and 5) are not adjacent, A and B cannot sit together. Thus, Case 1 is invalid.\n- Test Case 2: The empty seats are Positions 2 and 3. These are adjacent, allowing A and B to sit together. From condition 5, A is to the right of B. Between positions 2 and 3, Position 3 is to the right. Therefore, Position 2 = B and Position 3 = A.\nThis leaves the finalized row: [E, B, A, D, C].\n\nChecking conditions: C (5) is not next to E (1). A (3) is to the right of B (2) and E (1). All conditions are satisfied. The middle position is Position 3, which is occupied by A."
+  },
+  {
+    "question_number": 10,
+    "subject": "reasoning",
+    "question": "If 15th August 2011 was a Monday, what day of the week was 15th August 2013?",
+    "options": {
+      "A": "Tuesday",
+      "B": "Wednesday",
+      "C": "Thursday",
+      "D": "Friday"
+    },
+    "correct_option": "C",
+    "explanation": "We calculate the total number of odd days between 15th August 2011 and 15th August 2013:\n\n1. From 15th August 2011 to 15th August 2012:\n- 2012 is a leap year. Since this year-long interval crosses February 29, 2012, it contains 366 days.\n- Dividing 366 by 7 yields 52 weeks and a remainder of 2 odd days.\n\n2. From 15th August 2012 to 15th August 2013:\n- 2013 is an ordinary year. It contains 365 days.\n- Dividing 365 by 7 yields 52 weeks and a remainder of 1 odd day.\n\n3. Total odd days:\n- Total odd days = 2 + 1 = 3 odd days.\n\n4. Determine the day:\n- Add 3 days to Monday: Monday + 3 days = Thursday.\n\nTherefore, 15th August 2013 was a Thursday."
+  }
+]

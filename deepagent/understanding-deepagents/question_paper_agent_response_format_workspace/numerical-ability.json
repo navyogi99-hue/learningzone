@@ -1,0 +1,132 @@
+[
+  {
+    "question_number": 11,
+    "subject": "numerical-ability",
+    "question": "Simplify the following expression: 180 ÷ 15 × [24 - {38 - 4 × (12 - 32 ÷ 4)}] + 12.5% of 160",
+    "options": {
+      "A": "36",
+      "B": "44",
+      "C": "52",
+      "D": "60"
+    },
+    "correct_option": "B",
+    "explanation": "Following the BODMAS rule: 1) Inner round parentheses: 12 - 32 ÷ 4 = 12 - 8 = 4. 2) Curly braces: 38 - 4 × 4 = 38 - 16 = 22. 3) Square brackets: 24 - 22 = 2. 4) Percentage part: 12.5% of 160 = (1/8) × 160 = 20. 5) Division and multiplication from left to right: 180 ÷ 15 × 2 = 12 × 2 = 24. 6) Final addition: 24 + 20 = 44."
+  },
+  {
+    "question_number": 12,
+    "subject": "numerical-ability",
+    "question": "If the 9-digit number 847x56y28 is completely divisible by 72, then what is the value of (2x + y) for the smallest possible value of y?",
+    "options": {
+      "A": "8",
+      "B": "9",
+      "C": "11",
+      "D": "13"
+    },
+    "correct_option": "B",
+    "explanation": "For divisibility by 72, the number must be divisible by both 8 and 9. 1) Divisibility by 8: The last three digits 'y28' must be divisible by 8. Testing digits shows the smallest possible value of y is 1 (since 128 is divisible by 8). 2) Divisibility by 9: The sum of digits must be a multiple of 9. Sum = 8 + 4 + 7 + x + 5 + 6 + y + 2 + 8 = 40 + x + y. Substituting y = 1, we get Sum = 41 + x. For this to be divisible by 9, x must be 4. 3) Calculating 2x + y: 2(4) + 1 = 9."
+  },
+  {
+    "question_number": 13,
+    "subject": "numerical-ability",
+    "question": "In an election between two candidates, 10% of the voters did not cast their votes and 10% of the votes cast were declared invalid. The successful candidate got 54% of the valid votes and won by a majority of 1620 votes. Find the total number of voters enrolled in the voters' list.",
+    "options": {
+      "A": "20,000",
+      "B": "22,500",
+      "C": "25,000",
+      "D": "30,000"
+    },
+    "correct_option": "C",
+    "explanation": "Let the total enrolled voters be V. 1) Votes cast = 90% of V = 0.90V. 2) Valid votes = 90% of 0.90V = 0.81V. 3) Winner got 54% of valid votes, so loser got (100% - 54%) = 46% of valid votes. 4) The winner's majority is 54% - 46% = 8% of valid votes. 5) Therefore, 8% of 0.81V = 1620 => 0.08 × 0.81V = 1620 => 0.0648V = 1620 => V = 25,000."
+  },
+  {
+    "question_number": 14,
+    "subject": "numerical-ability",
+    "question": "A shopkeeper marks his goods 40% above the cost price. He sells 60% of the goods at the marked price and the remaining goods at a discount of 20% on the marked price. What is his overall gain percentage?",
+    "options": {
+      "A": "24%",
+      "B": "26.4%",
+      "C": "28.8%",
+      "D": "31.2%"
+    },
+    "correct_option": "C",
+    "explanation": "Let CP of 100 items be Rs. 100 each, making total CP = Rs. 10,000. Marked Price (MP) per item = Rs. 140. 1) Selling price of 60% of goods (60 items) at MP = 60 × 140 = Rs. 8,400. 2) Selling price of remaining 40% of goods (40 items) at a 20% discount on MP (Selling Price = Rs. 112) = 40 × 112 = Rs. 4,480. 3) Total SP = 8,400 + 4,480 = Rs. 12,880. 4) Overall gain = SP - CP = 12,880 - 10,000 = Rs. 2,880. 5) Overall gain percentage = (2,880 / 10,000) × 100 = 28.8%."
+  },
+  {
+    "question_number": 15,
+    "subject": "numerical-ability",
+    "question": "The difference between the compound interest (compounded annually) and the simple interest on a certain sum of money for 3 years at 10% per annum is Rs. 279. Find the sum.",
+    "options": {
+      "A": "Rs. 8,000",
+      "B": "Rs. 8,500",
+      "C": "Rs. 9,000",
+      "D": "Rs. 9,500"
+    },
+    "correct_option": "C",
+    "explanation": "The formula for the difference (D) between CI and SI for 3 years is: D = P × (r/100)^2 × ((300 + r)/100). Given D = 279 and r = 10%: 279 = P × (10/100)^2 × ((300 + 10)/100) => 279 = P × (1/100) × (310/100) => 279 = P × (31/1000) => P = (279 × 1000) / 31. Since 279 / 31 = 9, P = 9,000. The principal sum is Rs. 9,000."
+  },
+  {
+    "question_number": 16,
+    "subject": "numerical-ability",
+    "question": "The ratio of incomes of A, B, and C is 3 : 7 : 4, and the ratio of their expenditures is 4 : 3 : 5. If A saves Rs. 300 out of an income of Rs. 2400, then what is the savings of C?",
+    "options": {
+      "A": "Rs. 575",
+      "B": "Rs. 625",
+      "C": "Rs. 450",
+      "D": "Rs. 500"
+    },
+    "correct_option": "A",
+    "explanation": "1) Income: Let incomes of A, B, C be 3k, 7k, 4k. A's income = 2400 => 3k = 2400 => k = 800. Therefore, C's income = 4 × 800 = Rs. 3200. 2) Expenditure: A's savings = 300, so A's expenditure = 2400 - 300 = Rs. 2100. Let expenditures be 4x, 3x, 5x. 4x = 2100 => x = 525. C's expenditure = 5 × 525 = Rs. 2625. 3) C's savings = Income of C - Expenditure of C = 3200 - 2625 = Rs. 575."
+  },
+  {
+    "question_number": 17,
+    "subject": "numerical-ability",
+    "question": "A and B can complete a work in 15 days and 10 days respectively. They started doing the work together, but after 2 days B had to leave and A alone completed the remaining work. In how many days was the whole work completed?",
+    "options": {
+      "A": "8 days",
+      "B": "10 days",
+      "C": "12 days",
+      "D": "14 days"
+    },
+    "correct_option": "C",
+    "explanation": "Let the total work be the LCM of 15 and 10 = 30 units. Efficiency of A = 30 / 15 = 2 units/day. Efficiency of B = 30 / 10 = 3 units/day. Combined efficiency = 5 units/day. Work done together in 2 days = 2 × 5 = 10 units. Remaining work = 30 - 10 = 20 units. Time taken by A to complete remaining work = 20 / 2 = 10 days. Total days for the whole work = 2 days (together) + 10 days (A alone) = 12 days."
+  },
+  {
+    "question_number": 18,
+    "subject": "numerical-ability",
+    "question": "A thief is spotted by a policeman from a distance of 250 meters. When the policeman starts the chase, the thief also starts running. If the speed of the thief is 10 km/h and that of the policeman is 12 km/h, how far (in meters) will the thief have run before he is overtaken?",
+    "options": {
+      "A": "1000 meters",
+      "B": "1100 meters",
+      "C": "1200 meters",
+      "D": "1250 meters"
+    },
+    "correct_option": "D",
+    "explanation": "Initial separation = 250 m = 0.25 km. Relative speed = Speed of policeman - Speed of thief = 12 - 10 = 2 km/h. Time taken to catch the thief = Distance / Relative speed = 0.25 km / 2 km/h = 0.125 hours. Distance covered by thief in this time = Speed of thief × Time = 10 km/h × 0.125 h = 1.25 km = 1250 meters."
+  },
+  {
+    "question_number": 19,
+    "subject": "numerical-ability",
+    "question": "The average weight of 12 players in a team is increased by 1.5 kg when one of the players, who weighs 56 kg, is replaced by a new player. What is the weight of the new player?",
+    "options": {
+      "A": "70 kg",
+      "B": "72 kg",
+      "C": "74 kg",
+      "D": "76 kg"
+    },
+    "correct_option": "C",
+    "explanation": "Total increase in the weight of the team = Number of players × Increase in average = 12 × 1.5 = 18 kg. Since the new player replaces a 56 kg player and causes this increase, the weight of the new player = Weight of replaced player + Total increase = 56 + 18 = 74 kg."
+  },
+  {
+    "question_number": 20,
+    "subject": "numerical-ability",
+    "question": "A copper wire when bent in the form of a square encloses an area of 484 cm². If the same wire is bent in the form of a circle, what will be the area enclosed by the circle? (Take π = 22/7)",
+    "options": {
+      "A": "512 cm²",
+      "B": "616 cm²",
+      "C": "624 cm²",
+      "D": "644 cm²"
+    },
+    "correct_option": "B",
+    "explanation": "1) Area of square = side² = 484 cm² => Side (a) = 22 cm. 2) Length of wire = Perimeter of square = 4 × 22 = 88 cm. 3) When bent into a circle, its circumference is equal to the length of wire: 2 × π × r = 88 => 2 × (22/7) × r = 88 => r = 14 cm. 4) Area of circle = π × r² = (22/7) × 14 × 14 = 616 cm²."
+  }
+]
