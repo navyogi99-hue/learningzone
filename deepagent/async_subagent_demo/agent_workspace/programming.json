@@ -1,0 +1,95 @@
+{
+  "mcqs": [
+    {
+      "question": "What is the average-case time complexity of searching for a key in a Python dictionary (hash table)?",
+      "A": "O(1)",
+      "B": "O(log n)",
+      "C": "O(n)",
+      "D": "O(n log n)",
+      "answer": "A",
+      "explanation": "Python dictionaries are implemented using hash tables. Under average conditions, searching for a key is a constant-time operation, represented as O(1)."
+    },
+    {
+      "question": "Which of the following built-in data types in Python is mutable?",
+      "A": "tuple",
+      "B": "list",
+      "C": "string",
+      "D": "int",
+      "answer": "B",
+      "explanation": "Lists in Python are mutable, meaning their elements can be modified, added, or removed in place without creating a new list object. Tuples, strings, and integers are immutable."
+    },
+    {
+      "question": "In a standard Binary Search Tree (BST) containing unique values, what is the correct relationship between any parent node and its left and right subtrees?",
+      "A": "All keys in the left subtree must be greater than the parent key, and all keys in the right subtree must be smaller.",
+      "B": "All keys in the left subtree must be smaller than the parent key, and all keys in the right subtree must be greater.",
+      "C": "The parent node must always have exactly two child nodes.",
+      "D": "The parent key is always the average of the left and right child keys.",
+      "answer": "B",
+      "explanation": "By definition, for any given node in a Binary Search Tree, all node values in its left subtree are strictly smaller than the parent node's value, and all node values in its right subtree are strictly greater."
+    },
+    {
+      "question": "Which of the following sorting algorithms has a worst-case time complexity of O(n^2) but can achieve a best-case time complexity of O(n) when optimized with a swap-check flag?",
+      "A": "Merge Sort",
+      "B": "Quick Sort",
+      "C": "Bubble Sort",
+      "D": "Selection Sort",
+      "answer": "C",
+      "explanation": "In an optimized version of Bubble Sort, if no elements are swapped during a complete pass, the algorithm terminates early because the array is already sorted. This results in a best-case time complexity of O(n)."
+    },
+    {
+      "question": "What will be the output of the following Python code snippet?\n\nmy_list = [10, 20, 30, 40, 50]\nprint(my_list[-3:])",
+      "A": "[10, 20, 30]",
+      "B": "[30, 40, 50]",
+      "C": "[40, 50]",
+      "D": "[20, 30, 40]",
+      "answer": "B",
+      "explanation": "Negative indexing in Python starts from the end of the array. The index -3 refers to the third element from the end, which is 30. The slicing notation [-3:] retrieves all elements from index -3 to the end of the list, giving [30, 40, 50]."
+    },
+    {
+      "question": "What is the output of the following Python function when called with an argument of 10?\n\ndef calculate_sum(limit):\n    total = 0\n    for i in range(limit):\n        if i % 3 == 0 or i % 5 == 0:\n            total += i\n    return total\n\nprint(calculate_sum(10))",
+      "A": "23",
+      "B": "33",
+      "C": "18",
+      "D": "45",
+      "answer": "A",
+      "explanation": "range(10) yields integers from 0 to 9. The loop filters numbers that are multiples of 3 or 5, which are 0, 3, 5, 6, and 9. Summing these together gives: 0 + 3 + 5 + 6 + 9 = 23."
+    },
+    {
+      "question": "What will be the output of the following Python code?\n\nx = True\ny = False\nz = True\nresult = (x or y) and not (y or z)\nprint(result)",
+      "A": "True",
+      "B": "False",
+      "C": "None",
+      "D": "SyntaxError",
+      "answer": "B",
+      "explanation": "The expression (x or y) evaluates to True (since True or False is True). The expression (y or z) evaluates to True (since False or True is True), making 'not (y or z)' evaluate to False. Thus, 'True and False' evaluates to False."
+    },
+    {
+      "question": "A software startup wants to design a background task processing system where tasks are executed in the exact order they are received. Which data structure is most appropriate for managing these tasks?",
+      "A": "Stack",
+      "B": "Queue",
+      "C": "Binary Search Tree",
+      "D": "Hash Set",
+      "answer": "B",
+      "explanation": "A Queue operates on a First-In, First-Out (FIFO) basis. This ensures that the task arriving first is processed first, making it the perfect choice for order-based processing like request queues."
+    },
+    {
+      "question": "What is the output of the following Python code snippet?\n\nwords = [\"apple\", \"bat\", \"cherry\"]\noutput = [len(w) for w in words if \"a\" in w]\nprint(output)",
+      "A": "[5, 3]",
+      "B": "[5, 3, 6]",
+      "C": "[3, 6]",
+      "D": "[5]",
+      "answer": "A",
+      "explanation": "The list comprehension iterates through words. The conditional 'if \"a\" in w' matches \"apple\" and \"bat\" (since both contain 'a'), but excludes \"cherry\". It then stores the length of the matched words: len(\"apple\") is 5 and len(\"bat\") is 3, resulting in [5, 3]."
+    },
+    {
+      "question": "What is the primary purpose of the following recursive Python function when given a positive integer n?\n\ndef mystery_function(n):\n    if n <= 1:\n        return n\n    return n * mystery_function(n - 1)",
+      "A": "To find the sum of numbers from 1 to n.",
+      "B": "To compute the nth Fibonacci number.",
+      "C": "To calculate the factorial of n.",
+      "D": "To reverse a list of numbers.",
+      "answer": "C",
+      "explanation": "This function multiplies the integer n by the result of calling itself with n - 1, continuing until the base case n <= 1 is reached. This recursive structure represents the mathematical definition of factorial calculation (n!)."
+    }
+  ],
+  "topic": "Python, Data Structures, and Basic Algorithms for Freshers"
+}

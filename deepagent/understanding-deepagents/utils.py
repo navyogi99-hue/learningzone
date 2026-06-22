@@ -14,7 +14,7 @@ def get_model() -> BaseChatModel:
     This model returns the llm
 
     """
-    model=init_chat_model(
+    model= ChatGoogleGenerativeAI(
         model="gemini-3.5-flash",
         project=os.getenv("GOOGLE_CLOUD_PROJECT")
     )

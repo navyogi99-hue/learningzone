@@ -1,0 +1,95 @@
+{
+  "mcqs": [
+    {
+      "question": "Find the missing term in the alphabet series: FHJ, KMO, PRT, ?",
+      "A": "UWY",
+      "B": "UWV",
+      "C": "VWY",
+      "D": "TUX",
+      "answer": "A",
+      "explanation": "[Source: Web] The pattern here is a constant alphabetical shift of +5 positions for each corresponding letter in the triplets:\n- F (6) + 5 = K (11), K (11) + 5 = P (16), P (16) + 5 = U (21)\n- H (8) + 5 = M (13), M (13) + 5 = R (18), R (18) + 5 = W (23)\n- J (10) + 5 = O (15), O (15) + 5 = T (20), T (20) + 5 = Y (25)\nTherefore, the next term is UWY."
+    },
+    {
+      "question": "Pointing to a photograph, a person said, \"She is the daughter of the woman who is the mother of the husband of my mother.\" How is the lady in the photograph related to this person?",
+      "A": "Sister",
+      "B": "Aunt",
+      "C": "Mother",
+      "D": "Daughter",
+      "answer": "B",
+      "explanation": "[Source: Web] Let us break down the relationships step-by-step:\n1. \"The husband of my mother\" is the person's father.\n2. \"The mother of the husband of my mother\" is the person's father's mother, which is their paternal grandmother.\n3. \"The daughter of the woman who is the mother of the husband of my mother\" is the daughter of their paternal grandmother.\n4. The daughter of one's paternal grandmother is one's father's sister, which corresponds to their paternal Aunt.\nTherefore, the lady in the photograph is the person's Aunt."
+    },
+    {
+      "question": "A man is facing West. He turns 45 degrees in the clockwise direction and then another 180 degrees in the same direction, and then 270 degrees in the anticlockwise direction. Which direction is he facing now?",
+      "A": "South",
+      "B": "North-West",
+      "C": "South-West",
+      "D": "South-East",
+      "answer": "C",
+      "explanation": "[Source: Web] We can calculate the net angular rotation by assigning positive values (+) to clockwise (CW) turns and negative values (-) to anticlockwise (CCW) turns:\n1. Initial direction: West (270°)\n2. Clockwise turn of 45°: +45°\n3. Clockwise turn of 180°: +180°\n4. Anticlockwise turn of 270°: -270°\nNet change = +45° + 180° - 270° = -45° (or 45° in the anticlockwise direction).\nTurning 45° anticlockwise from West points to the South-West direction."
+    },
+    {
+      "question": "If INDIAN is coded as 91449114 in a certain language, how will the word THAI be coded in that same language?",
+      "A": "208110",
+      "B": "20819",
+      "C": "19819",
+      "D": "20829",
+      "answer": "B",
+      "explanation": "[Source: Web] The coding scheme represents the alphabetical position of each letter (A=1, B=2, ..., Z=26) written consecutively without separators:\n- I = 9\n- N = 14\n- D = 4\n- I = 9\n- A = 1\n- N = 14\nThis forms 91449114.\nApplying the same logic to \"THAI\":\n- T = 20\n- H = 8\n- A = 1\n- I = 9\nThus, \"THAI\" is coded as 20819."
+    },
+    {
+      "question": "Consider the following statements and determine which of the conclusions logically follow:\n\nStatements:\n1. All C are J.\n2. All J are B.\n3. No B is R.\n\nConclusions:\nI. All B are C.\nII. Some J are C.",
+      "A": "Only conclusion I follows",
+      "B": "Only conclusion II follows",
+      "C": "Both conclusion I and II follow",
+      "D": "Neither conclusion I nor II follows",
+      "answer": "B",
+      "explanation": "[Source: Web] Let's analyze using Venn diagrams:\n- Since 'All C are J' and 'All J are B', all C are inside B, but B can have elements outside C. Thus, 'All B are C' (Conclusion I) is not necessarily true.\n- Since 'All C are J', the set C is completely contained within J. There is a complete overlap of C with a subset of J, meaning 'Some J are C' (Conclusion II) is definitely true.\nTherefore, only conclusion II follows."
+    },
+    {
+      "question": "Find the missing number in the following series: 5, 9, 18, 43, 92, 213, ?",
+      "A": "357",
+      "B": "382",
+      "C": "394",
+      "D": "412",
+      "answer": "B",
+      "explanation": "[Source: Original] The differences between consecutive terms in the series are squares of consecutive prime numbers:\n- 9 - 5 = 4 = 2^2 (2 is the 1st prime)\n- 18 - 9 = 9 = 3^2 (3 is the 2nd prime)\n- 43 - 18 = 25 = 5^2 (5 is the 3rd prime)\n- 92 - 43 = 49 = 7^2 (7 is the 4th prime)\n- 213 - 92 = 121 = 11^2 (11 is the 5th prime)\nThe next prime number after 11 is 13.\nSo, the next difference must be 13^2 = 169.\nThe missing number is: 213 + 169 = 382."
+    },
+    {
+      "question": "In a coding language used by a compiler development team, the word \"STACK\" is coded as \"TVDGP\". Under the same rules, how would the word \"ARRAY\" be coded?",
+      "A": "BSUED",
+      "B": "BTUFC",
+      "C": "BTUED",
+      "D": "BTVEE",
+      "answer": "C",
+      "explanation": "[Source: Original] The coding logic shifts each letter forward in the alphabet by an increasing step corresponding to its 1-based index position:\n- 1st letter: shift by +1 (S -> T)\n- 2nd letter: shift by +2 (T -> V)\n- 3rd letter: shift by +3 (A -> D)\n- 4th letter: shift by +4 (C -> G)\n- 5th letter: shift by +5 (K -> P)\n\nApplying this rule to \"ARRAY\":\n- A + 1 = B\n- R + 2 = T\n- R + 3 = U\n- A + 4 = E\n- Y + 5 = D (Y is 25; wrapping around: Z, A, B, C, D)\nThis results in \"BTUED\"."
+    },
+    {
+      "question": "A programmable robot starts at the warehouse origin (0, 0) facing North. It executes the following sequence of movements:\n1. Moves 15 meters forward.\n2. Turns 90 degrees right and moves 12 meters.\n3. Turns 90 degrees left and moves 10 meters.\n4. Turns 180 degrees and moves 18 meters.\n5. Turns 90 degrees left and moves 12 meters.\nWhat is the shortest distance (in meters) between the robot's final position and its starting point?",
+      "A": "17 meters",
+      "B": "25 meters",
+      "C": "29 meters",
+      "D": "35 meters",
+      "answer": "B",
+      "explanation": "[Source: Original] Let's track the coordinates of the robot on a 2D plane (with North being the positive y-axis):\n- Start: (0, 0), facing North.\n- Step 1: Moves 15m North -> (0, 15), facing North.\n- Step 2: Turns 90° right (East) and moves 12m -> (12, 15), facing East.\n- Step 3: Turns 90° left (North) and moves 10m -> (12, 25), facing North.\n- Step 4: Turns 180° (South) and moves 18m -> (12, 7), facing South.\n- Step 5: Turns 90° left (East, since left of South is East) and moves 12m -> (24, 7), facing East.\n\nThe shortest distance from (0,0) to the final position (24, 7) is calculated using the Pythagorean theorem:\nDistance = sqrt(24^2 + 7^2) = sqrt(576 + 49) = sqrt(625) = 25 meters."
+    },
+    {
+      "question": "In a specialized family-tree simulation program, relationships are defined using symbolic operators:\n- 'A + B' means A is the father of B\n- 'A - B' means A is the wife of B\n- 'A * B' means A is the brother of B\n- 'A / B' means A is the daughter of B\nGiven the expression 'P * Q / R - S + T', how is P related to T?",
+      "A": "Brother",
+      "B": "Uncle",
+      "C": "Cousin",
+      "D": "Father-in-law",
+      "answer": "A",
+      "explanation": "[Source: Original] Let us decode the expression step-by-step from left to right:\n1. 'P * Q' -> P is the brother of Q (P is male).\n2. 'Q / R' -> Q is the daughter of R. Since P is Q's brother, P is the son of R.\n3. 'R - S' -> R is the wife of S. This implies S is the father of both P and Q.\n4. 'S + T' -> S is the father of T. This means T is also a child of S.\nSince P and T share the same father (S) and we established that P is male, P must be the brother of T."
+    },
+    {
+      "question": "Four developers (Alice, Bob, Charlie, and Diana) are assigned to four different startup projects (Frontend, Backend, Database, and DevOps), with exactly one developer per project. You are given the following clues:\n1. Diana does not work on Frontend or Database.\n2. Charlie is working on Backend.\n3. Alice is not working on DevOps.\n4. Alice is not working on Database.\nWhich project is Diana working on?",
+      "A": "Frontend",
+      "B": "Database",
+      "C": "DevOps",
+      "D": "Backend",
+      "answer": "C",
+      "explanation": "[Source: Original] Let's solve this logical puzzle systematically:\n1. From Clue 2, Charlie is on Backend. This leaves Frontend, Database, and DevOps for Alice, Bob, and Diana.\n2. From Clue 1, Diana cannot be on Frontend or Database. Thus, Diana must be on DevOps.\n3. From Clue 4, Alice cannot be on Database. Since DevOps and Backend are already taken, Alice must be on Frontend.\n4. This leaves Bob to work on Database.\nTherefore, Diana is working on DevOps."
+    }
+  ],
+  "topic": "Logical Reasoning Assessment for Software Startup Freshers"
+}

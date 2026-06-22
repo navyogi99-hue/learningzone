@@ -1,0 +1,95 @@
+{
+  "mcqs": [
+    {
+      "question": "You are a fresher software engineer. You realize that you cannot meet the deadline for a critical feature deployment due tomorrow afternoon because of an unexpected third-party API outage. What is the most professional way to handle this with your manager?",
+      "A": "Send an urgent Slack message tomorrow morning: \"Hey, the API is down so I can't deploy the feature. It's not my fault.\"",
+      "B": "Email your manager immediately, explaining the root cause (the API outage), the current status, and proposing a revised timeline with alternative mitigation plans.",
+      "C": "Wait until tomorrow afternoon's standup to report the issue so you can explain yourself in person.",
+      "D": "Pull an all-nighter to write a custom workaround without telling anyone, hoping they won't notice the API change.",
+      "answer": "B",
+      "explanation": "Proactive, structured, and solution-oriented communication is essential in a professional environment. Emailing immediately with the root cause, revised timeline, and mitigation strategies demonstrates accountability and helps managers manage stakeholder expectations."
+    },
+    {
+      "question": "Identify the grammatically correct sentence from the choices below, paying attention to subject-verb agreement commonly used in business reporting:",
+      "A": "Neither the lead architect nor the product managers is satisfied with the current database schema.",
+      "B": "Neither the lead architect nor the product managers are satisfied with the current database schema.",
+      "C": "Neither the lead architect nor the product managers was satisfied with the current database schema.",
+      "D": "Neither the lead architect or the product managers are satisfied with the current database schema.",
+      "answer": "B",
+      "explanation": "When using 'neither... nor...', the verb must agree with the closer subject. Since 'product managers' is plural and closer to the verb, 'are' is correct. Additionally, 'neither' must pair with 'nor', making D incorrect."
+    },
+    {
+      "question": "You receive feedback on your first pull request from a senior engineer. The comments are direct and point out several design patterns that you implemented incorrectly, suggesting a complete refactor of two modules. What is the most constructive response?",
+      "A": "Reply defensively to the comments, explaining that you followed the initial requirements and that their design suggestions are overly complex.",
+      "B": "Delete the branch, rebuild it quietly from scratch, and do not reply to any comments to avoid further confrontation.",
+      "C": "Reply to the PR comments thanking them for the guidance, and schedule a brief 10-minute sync to clarify the alternative design patterns and ensure alignment with best practices.",
+      "D": "Direct message the CTO or team lead to complain about the senior engineer's harsh tone and ask to be reassigned to a different reviewer.",
+      "answer": "C",
+      "explanation": "In a high-growth startup, receiving and acting on feedback gracefully is crucial. Approaching critical code reviews as learning opportunities by expressing appreciation, asking clarifying questions, and aligning on best practices fosters collaboration and shows professional maturity."
+    },
+    {
+      "question": "Choose the word that best completes the sentence to convey a professional and proactive tone: 'To ensure our system can handle the upcoming Black Friday traffic surge, we must ________ the database queries to reduce response latency.'",
+      "A": "curtail",
+      "B": "optimize",
+      "C": "exacerbate",
+      "D": "truncate",
+      "answer": "B",
+      "explanation": "'Optimize' means to make the best or most effective use of a resource (in this case, code/queries for performance). 'Curtail' means to restrict/cut short, 'exacerbate' means to make a problem worse, and 'truncate' means to shorten by cutting off, which would damage query logic."
+    },
+    {
+      "question": "During a sprint, a marketing stakeholder direct messages you on Slack asking you to add a small feature to the customer onboarding page immediately because it will help an upcoming campaign. This feature was not included in the sprint planning. How should you respond?",
+      "A": "Agree to build it immediately since it's 'small' and you want to be helpful to other teams.",
+      "B": "Politely explain that you are currently committed to sprint deliverables and suggest they channel the request through your Product Manager so it can be prioritized.",
+      "C": "Ignore the Slack message entirely to maintain focus on your current tasks.",
+      "D": "Respond, 'We cannot do this. You need to follow the proper process and not message developers directly.'",
+      "answer": "B",
+      "explanation": "In a startup, it's vital to protect sprint goals while maintaining cross-functional relationships. Politely explaining your current commitment and guiding the stakeholder to the Product Manager for prioritization is collaborative, assertive, and maintains the established sprint workflow."
+    },
+    {
+      "question": "Which of the following is the most professional, action-oriented, and clear email subject line when asking a teammate to review a technical specification document?",
+      "A": "HELP! Need feedback ASAP on this doc.",
+      "B": "Review Request: Technical Spec for User Auth Module [Due Friday, 5 PM]",
+      "C": "Technical Spec Document",
+      "D": "Hey, can you look at this when you have a minute?",
+      "answer": "B",
+      "explanation": "Professional email subject lines should be specific, searchable, and include context (what the email is about) and any actionable deadlines. Option B clearly states the topic and the deadline, allowing the recipient to prioritize it."
+    },
+    {
+      "question": "Select the option that is most concise, grammatically correct, and uses active voice to express a professional status update.",
+      "A": "The bug was identified by me, and the hotfix is being tested right now by our QA team.",
+      "B": "I identified the bug, and our QA team is testing the hotfix now.",
+      "C": "Having identified the bug, the hotfix is under test currently by our QA team.",
+      "D": "I identified the bug, the hotfix is being tested by our QA team.",
+      "answer": "B",
+      "explanation": "Option B uses the active voice ('I identified...', 'our QA team is testing...'), which is clearer, shorter, and more direct than passive constructions. Option D contains a comma splice (joining two independent clauses with only a comma)."
+    },
+    {
+      "question": "When reaching out to a senior engineer on Slack for help with a technical blocker, which approach is most efficient and respects their time?",
+      "A": "Sending 'Hi' or 'Hello' and waiting for them to reply before typing your question.",
+      "B": "Sending a single, detailed message stating what you are trying to do, what error you encountered (with code/logs), what steps you have already tried, and your availability.",
+      "C": "Mentioning them in a public channel with a message like: 'I am stuck. Please help.'",
+      "D": "Calling them directly on Zoom/Slack huddle without sending a message first, to explain the issue dynamically.",
+      "answer": "B",
+      "explanation": "High-growth startups rely heavily on asynchronous communication. Sending a single message with full context (reproduction steps, logs, previous attempts) allows the recipient to understand the problem immediately and help efficiently without back-and-forth 'hello' pings, while respecting their focus state."
+    },
+    {
+      "question": "Read the following paragraph from a technical architecture document: 'While SQLite is sufficient for localized testing, our production environment must handle concurrent write requests from thousands of active clients. Consequently, we will deploy PostgreSQL for staging and production, ensuring we config connection pooling to prevent connection exhaustion under peak load.' Based on the text, which of the following statements is TRUE?",
+      "A": "SQLite is recommended for both localized testing and staging environments.",
+      "B": "PostgreSQL is only necessary for the production environment, not staging.",
+      "C": "Connection pooling is implemented to handle localized testing limitations.",
+      "D": "SQLite is unsuitable for the production environment because of concurrent write requirements.",
+      "answer": "D",
+      "explanation": "The text states that 'SQLite is sufficient for localized testing' but 'our production environment must handle concurrent write requests... Consequently, we will deploy PostgreSQL...'. This directly implies SQLite cannot handle the concurrent write requirements of production."
+    },
+    {
+      "question": "Your project lead gives you a task: 'Improve the performance of our database loader.' No other context or metrics are provided. What is the best initial step?",
+      "A": "Immediately start rewriting the database indexing queries to make them faster.",
+      "B": "Spend three days researching academic papers on database optimization before beginning work.",
+      "C": "Ask the project lead clarifying questions to define success, such as: 'What is our current baseline latency, what is our target performance metric, and do we have a specific dataset size we are optimizing for?'",
+      "D": "Report the task as blocked and refuse to work on it until a detailed technical specification is written.",
+      "answer": "C",
+      "explanation": "Freshers in startups often face high ambiguity. Instead of making assumptions or refusing to work, the best approach is to proactively seek clarification by asking specific, targeted questions to define baseline metrics and success criteria."
+    }
+  ],
+  "topic": "Communication Skills for Software Startup Freshers"
+}

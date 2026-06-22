@@ -1,7 +1,8 @@
 from fastapi import FastAPI
+from typing import List, Optional
 from dotenv import load_dotenv
 from app.db.base import Base, engine
-from app.api import router as store_v1_router
+from app.api.v1.store import router as store_v1_router
 
 import os
 load_dotenv()
